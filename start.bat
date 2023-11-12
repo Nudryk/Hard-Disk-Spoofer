@@ -1,5 +1,6 @@
 @echo off
 
+py -m ensurepip --upgrade
 py -3 -m pip install -U asyncio
 
 cd..
