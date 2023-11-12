@@ -15,7 +15,7 @@ def spoof():
     if ask2 == "yes":
         nom="spoof.bat"      
         fichier=open(nom,'w')
-        fichier.write("cd {disk}/Windows/System32/HardDiskSpoofer/not_touch\nvolumeid {disk}\ {serialNumberGen}".format(disk=disk, serialNumberGen=serialNumberGen))
+        fichier.write("cd {disk}/HardDiskSpoofer/not_touch\nvolumeid {disk}\ {serialNumberGen}".format(disk=disk, serialNumberGen=serialNumberGen))
         fichier.close()
         subprocess.run(["spoof.bat"])
         time.sleep(1.0)
