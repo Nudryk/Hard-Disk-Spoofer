@@ -5,7 +5,7 @@ py -3 -m pip install -U asyncio
 
 cd..
 cd..
-cd HardDiskSpoofer-main
+cd Hard-Disk-Spoofer-main
 cd not_touch
 start main.py
 
